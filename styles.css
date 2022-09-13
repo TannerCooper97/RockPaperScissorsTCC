@@ -1,0 +1,32 @@
+body {
+    background-color: lightblue;
+  }
+
+
+  #playSpace{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+  }
+
+  button{
+      font-size: 5rem;
+      padding: 2rem;
+      margin: 1rem;
+      text-align: center;
+      border-width: .25rem;
+      border-radius: 1rem;
+  }
+
+  #roundBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #choicesBox, #roundWin{
+    padding: 1rem;
+  }
+
+  
